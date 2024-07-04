@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(32, 59, 82);
+}
+
+.add-list-btn {
+    margin: 30px 50px;
+    padding: 10px 50px;
+    font-size: 20px;
+    background: rgb(58, 117, 117);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.list-form {
+    width: 270px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 5px;
+    margin: 20px 50px;
+}
+
+.input-list {
+    font-size: 17px;
+    padding: 5px;
+    margin: 10px 0 0 10px;
+    outline: none;
+    width: 87%;
+    border: none;
+    border-radius: 8px;
+}
+
+.name-card {
+    display: flex;
+    background: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 87%;
+    /* display: none; */
+}
+
+.name-card-one {
+    display: flex;
+    background: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 87%;
+    display: none;
+}
+
+.text-card {
+    margin: 10px;
+    padding: 8px 5px;
+    font-size: 17px;
+    outline: none;
+    /* display: none; */
+    border-radius: 8px;
+    width: 87%;
+    resize: none
+}
+
+.text-card-none {
+    display: none;
+}
+
+.btn-list {
+    background: rgb(111, 111, 155);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-card {
+    background-color: palevioletred;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.add-card-none {
+    display: none;
+}
+
+.add-new-card {
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.add-new-card-none {
+    display: none;
+}
+
+.btn-delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-delete-card {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-delete-card-none {
+    display: none;
+}
+
+.wrapper-buttons {
+    display: flex;
+}
